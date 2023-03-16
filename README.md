@@ -1,5 +1,8 @@
-# Otsikko
-Tämä on tekstiä jossa on **erikoisia** sanoja
+# Ohjelmistotekniikka, harjoitustyö
 
-## Myös aliotsikko
-Jonka alla myös *hassua tekstiä*
+## Tehtävät
+
+### Viikko 1
+[gitlog.txt](https://github.com/slerbu/ot-harjoitustyo/blob/master/laskarit/viikko1/gitlog.txt)
+[komentorivi.txt](https://github.com/slerbu/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
+

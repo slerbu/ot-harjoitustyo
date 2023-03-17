@@ -7,3 +7,5 @@
 
 [komentorivi.txt](https://github.com/slerbu/ot-harjoitustyo/blob/master/laskarit/viikko1/komentorivi.txt)
 
+*Tämä on muutos*
+

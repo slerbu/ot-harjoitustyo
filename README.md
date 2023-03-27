@@ -12,3 +12,4 @@
 Epäsynkro >:)
 
 [Vaatimusmaarittely](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
+[Työaikakirjanpito](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)

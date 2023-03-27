@@ -1,10 +1,10 @@
-#Vaatimusmäärittely
+# Vaatimusmäärittely
 
 ## Sovelluksen tarkoitus
 
 Sovellus on shakkipeli (**jos ei säännöt tuttuja-> [Shakin säännöt](https://www.chess.com/fi/shakki))**. Sovelluksella kaksi pelaajaa pystyy pelaamaan shakkia sääntöjen mukaisesti toisiaan vastaan paikallisesti.
 
-##Suunnitellut toiminnallisuudet
+## Suunnitellut toiminnallisuudet
 
 
 

@@ -10,3 +10,5 @@
 *Tämä on muutos*
 
 Epäsynkro >:)
+
+[Vaatimusmaarittely](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)

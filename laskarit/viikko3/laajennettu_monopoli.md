@@ -51,13 +51,17 @@
           Toiminto()
 
       }
-      class Aloitusruutu{}
+      class Aloitusruutu{
+          ruutu_id
+      }
 
       class Vankila{
+          ruutu_id
 
 
       }
       class Sattuma_ja_yhteismaa{
+          ruutu_id
             
       }
       class Kortti{
@@ -65,9 +69,14 @@
 
       }
       
-      class Kadut{}
+      class Kadut{
+          ruutu_id
+      }
       class Talo{
+          ruutu_id
         
       }
-      class Hotelli{}
+      class Hotelli{
+          ruutu_id
+      }
 ```

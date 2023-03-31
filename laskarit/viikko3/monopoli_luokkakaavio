@@ -4,8 +4,8 @@
       Pelinappula "2-8" -- "2-8" Pelaaja
       Ruutu "40" -- "1" Pelilauta
       Ruutu "40" -- "1" Pelinappula
-      Noppa "2" -- Pelilauta
-      Noppa "2" -- Pelaaja
+      Noppa "2" -- "1" Pelilauta
+      Noppa "2" -- "2-8" Pelaaja
       
       
       class Noppa{

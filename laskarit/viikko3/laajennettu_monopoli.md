@@ -11,11 +11,11 @@
       Katu -- "0-1" Hotelli
       Pelaaja -- Katu
       
-      Ruutu <|-- Vankila
-      Ruutu <|-- Sattuma_ja_yhteismaa
-      Ruutu <|-- Asemat_ja_laitokset
-      Ruutu <|-- Kadut
-      Sattuma_ja_yhteismaa <|-- Kortti
+      Ruutu <-- Vankila
+      Ruutu <-- Sattuma_ja_yhteismaa
+      Ruutu <-- Asemat_ja_laitokset
+      Ruutu <-- Kadut
+      Sattuma_ja_yhteismaa <-- Kortti
 
 
     

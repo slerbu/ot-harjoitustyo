@@ -60,7 +60,3 @@ class TestMaksukortti(unittest.TestCase):
         self.kortti.syo_maukkaasti()
         self.assertEqual(str(self.kortti), "Kortilla on rahaa 0.00 euroa")
 
-    def test_lataaminen_kasvattaa_korttiarvoa_oikein(self):
-        lataus_maara = 500
-        self.kortti.lataa_rahaa(lataus_maara)
-        self.assertEqual(str(self.kortti), f"Kortilla on rahaa {round((1000 + lataus_maara)/100, 2)}0 euroa")

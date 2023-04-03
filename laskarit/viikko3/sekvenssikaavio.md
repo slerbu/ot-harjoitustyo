@@ -12,7 +12,7 @@
         Machine->>Engine: engine.use_energy()
         Engine->>FuelTank: consume(10)
         Engine -->> Machine: is_running=True
-        Engine ->>Fueltank: consume(10)
+        Engine ->>FuelTank: consume(10)
               
         
 ```

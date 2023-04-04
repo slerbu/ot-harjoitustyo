@@ -1,5 +1,8 @@
 import unittest
 import pygame
+import sys
+sys.path.append("~/ot-harjoitustyo")
+
 from squares import Square
 from board import Board
 

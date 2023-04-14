@@ -11,8 +11,16 @@ def main():
     gameboard = Board(width, height)
     gameboard.create_squares()
     gameboard.draw_board(screen)
-    print(gameboard.create_squares()[0].x)
-
+    pawn = pygame.image.load("src/code/data/light_pawn.png")
+    bishop = pygame.image.load("src/code/data/light_bishop.png")
+    rook = pygame.image.load("src/code/data/light_rook.png")
+    for i in range(8):
+        screen.blit(pawn, (i*80, 75))
+    screen.blit(bishop, (160, 0))
+    screen.blit(bishop, (400, 0))
+    screen.blit(rook, (0, 0))
+    screen.blit(rook, (560, 0))
+    
     
 
     while True:

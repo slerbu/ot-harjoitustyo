@@ -5,6 +5,16 @@ class Board:
     def __init__(self, width, height):
         self.width = width
         self.height = height
+        self.board = [
+            ["dR", "dN", "dB", "dQ", "dK", "dB", "dN", "dR" ],
+            ["dP", "dP", "dP", "dP", "dP", "dP", "dP", "dP"],
+            ["0",  "0",  "0",  "0",  "0",  "0",  "0",  "0"],
+            ["0",  "0",  "0",  "0",  "0",  "0",  "0",  "0"],
+            ["0",  "0",  "0",  "0",  "0",  "0",  "0",  "0"],
+            ["0",  "0",  "0",  "0",  "0",  "0",  "0",  "0"],
+            ["lP", "lP", "lP", "lP", "lP", "lP", "lP", "lP"],
+            ["lR", "lN", "lB", "lQ", "lK", "lB", "lN", "lR" ]
+        ]
 
 
     
@@ -21,4 +31,5 @@ class Board:
             pygame.draw.rect(screen, square.square_color, (square.actual_x, square.actual_y, square.width, square.height ))
 
     
+
     

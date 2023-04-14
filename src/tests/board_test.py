@@ -1,19 +1,21 @@
 import unittest
-import pygame
 import sys
-sys.path.append("~/ot-harjoitustyo")
+sys.path.append('../code')
+sys.path.append('/home/lindgseb/ot-harjoitustyo/src/code')
+#print(sys.path)
+import pygame
 
-from squares import Square
-from board import Board
+from code.board import Board
 
-class TestBoard(unittest.TestCase):
-    def setUp(self):
-        self.gameboard = Board(640,640)
-        
+if True:
+    class TestBoard(unittest.TestCase):
+        def setUp(self):
+            self.gameboard = Board(640,640)
+            
 
-    #Tests that the create_squares function generates squares and gives them appropriate coordinates
-    def test_appropriate_coordinates_x(self):
-        assert (self.gameboard.create_squares()[4].x, self.gameboard.create_squares()[4].y) == (4,0)
+        #Tests that the create_squares function generates squares and gives them appropriate coordinates
+        def test_appropriate_coordinates_x(self):
+            assert (self.gameboard.create_squares()[4].x, self.gameboard.create_squares()[4].y) == (4,0)
 
-    def test_appropriate_coordinates_y(self):
-        assert (self.gameboard.create_squares()[17].x, self.gameboard.create_squares()[17].y) == (1,2)
+        def test_appropriate_coordinates_y(self):
+            assert (self.gameboard.create_squares()[17].x, self.gameboard.create_squares()[17].y) == (1,2) 

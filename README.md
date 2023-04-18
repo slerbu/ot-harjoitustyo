@@ -10,5 +10,4 @@
 
 [Changelog](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
-
-Huom. Hemo säätöä src pytest ja filepath kanssa. Toistaiseksi ratkaisuksi kopion moduulit src/ hakemistosta tests/ hakemistoon. Fixing soon.
+[Arkkitehtuurikuvaus](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)

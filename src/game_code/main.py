@@ -38,6 +38,4 @@ while True:
         gameboard.draw_board(screen)
         pygame.display.update()
         draw(screen)
-
-    
-main()
+        

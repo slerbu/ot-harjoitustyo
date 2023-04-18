@@ -18,3 +18,18 @@ if True:
 
         def test_appropriate_coordinates_y(self):
             assert (self.gameboard.create_squares()[17].file, self.gameboard.create_squares()[17].rank) == (1,2)
+            
+        
+        #Tests that the mouse click works appropriate related to the coordinates of the scares and highlights the correct square
+        def test_mouse_click(self):
+            board = Board(800, 800)
+            board.mouse_click(0, 0)
+            square = board.get_square((0, 0))
+            assert square.highlight == True
+
+        #Tests the get_square function
+        def test_get_square(self):
+            board = Board(800, 800)
+            square = board.get_square((0, 0))
+            assert square.file == 0
+            assert square.rank == 0

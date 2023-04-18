@@ -1,4 +1,6 @@
+```mermaid
 classDiagram
+
     class Board {
         generate_squares
         draw_squares

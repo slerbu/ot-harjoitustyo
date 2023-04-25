@@ -1,3 +1,0 @@
-[run]
-source = src
-omit = src/**/__init__,src/tests/**src/tests/board_test/**

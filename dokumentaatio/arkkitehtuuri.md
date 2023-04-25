@@ -27,6 +27,7 @@ classDiagram
     Board <--> Square
     Board <--> Piece
     King <--> Piece
+```
 
 sequenceDiagram
     participant User

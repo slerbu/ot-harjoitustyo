@@ -29,12 +29,10 @@ classDiagram
     King <--> Piece
 ```
 
+
+```mermaid
 sequenceDiagram
-    participant User
-    participant Board
-    participant Square
-    participant Piece
-    User->>Board: create_board(width, height)
+ard(width, height)
     Board->>Board: __init__(width, height)
     Board->>Board: create_squares()
     Board->>Square: __init__(file, rank, width, height)
@@ -50,4 +48,4 @@ sequenceDiagram
     Piece->>Piece: move_piece(new_pos)
     Board->>Square: set_occupying_piece(piece)
     Board->>Board: change_turn()
- 
+``` 

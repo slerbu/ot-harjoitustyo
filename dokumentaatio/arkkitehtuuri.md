@@ -32,7 +32,7 @@ classDiagram
 
 ```mermaid
 sequenceDiagram
-ard(width, height)
+    User->>Board: create_board(width, height)
     Board->>Board: __init__(width, height)
     Board->>Board: create_squares()
     Board->>Square: __init__(file, rank, width, height)

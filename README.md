@@ -2,6 +2,10 @@
 
 ## Shakkipeli
 
+Perinteinen shakkipeli
+
+- Pelaa paikallisesti toista pelaajaa vastaan
+
 ### Dokumentaatio
 
 [Vaatimusmaarittely](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/vaatimusmaarittely.md)
@@ -11,6 +15,8 @@
 [Changelog](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/changelog.md)
 
 [Arkkitehtuurikuvaus](https://github.com/slerbu/ot-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
+[Release2](https://github.com/slerbu/ot-harjoitustyo/releases/tag/viikko6)
 
 ## Commands
 

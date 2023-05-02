@@ -1,8 +1,7 @@
 import sys
-from game_code.board import Board
 import pygame
+from game_code.board import Board
 
-from pygame.locals import QUIT
 
 pygame.init()
 width = 720
@@ -13,19 +12,21 @@ pygame.display.set_caption("Chess game")
 gameboard = Board(width, height)
 gameboard.setup_pieces()
 
+
 def draw(screen):
     gameboard.draw_board(screen)
-    pygame.display.update()
+    pygame.display.flip()
+
 
 draw(display)
 while True:
     mouse_x, mouse_y = pygame.mouse.get_pos()
     for event in pygame.event.get():
-        if event.type == QUIT:
+        if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
         elif event.type == pygame.MOUSEBUTTONDOWN:
             if event.button == 1:
-                gameboard.mouse_click(mouse_x, mouse_y)
+                gameboard.mouse_click(mouse_x, mouse_y, gameboard)
+
                 draw(display)
-        

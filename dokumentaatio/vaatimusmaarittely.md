@@ -8,10 +8,12 @@ Sovellus on shakkipeli (**jos ei säännöt tuttuja-> [Shakin säännöt](https:
 
 
 
-- Ruudulla sääntöjen mukainen shakkilauta ja pelinapit oikein aseteltuna
-- Pelinappuloita voi siirrellä sääntöjen mukaisesti
-- Siirrot tehdään kahdella klikkauksella: Ensimmäisellä klikataan nappia jota haluaa siirtää, ja toisella mihin ruutuun haluaa siirtää sen
-- Nappia siirtäessä ensimmäisellä klikkauksella jonkinlainen visuaalinen merkki joka osoittaa mihin ruutuihin nappia saa siirtää
+- Ruudulla sääntöjen mukainen shakkilauta ja pelinapit oikein aseteltuna **tehty**
+- Jokaisen tyyppiselle pelinapille oikeanlaiset mahdolliset siirrot **tehty**
+- Mekanismi joka tarkistaa shakkeja, ja rajoittaa mahdollisia siirtoja niin että ei voi laittaa omaa kuningasta shakkiin. Ja jos joutuu shakkiin niin pitää tehä siirto niin että pääsee shakista pois
+- Jos ei voi päästä pois shakista -> shakkimatti ja peli loppuu (voittaja ilmoitetaan?)
+- Siirrot tehdään kahdella klikkauksella: Ensimmäisellä klikataan nappia jota haluaa siirtää, ja toisella mihin ruutuun haluaa siirtää sen **tehty**
+- Nappia siirtäessä ensimmäisellä klikkauksella jonkinlainen visuaalinen merkki joka osoittaa mihin ruutuihin nappia saa siirtää **tehty (parannuksia vailla)**
 - Äänieffekti merkiksi, kun jompikumpi kuningas joutuu shakkiin
 - Ilmoitus kun peli loppuu, ja kumpi pelaaja on voittanut, tai jos on tasapeli
  
